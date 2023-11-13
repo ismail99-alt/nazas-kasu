@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="website icon" type="jpg" href="images/logo.jpg">
+    <meta name="viewpport" content="width=device-width, scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>NAZAS KASU | About</title>
+</head>
+<body>
+
+ <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="#">Pay Dues</a>
+    <a href="#news">Blog</a>
+    <a href="about.html">About</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Membership
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Members</a>
+        <a href="#">Register</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Leadership
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Current Leaders</a>
+        <a href="#">Past Leaders</a>
+        <a href="#">Parliament</a>
+        <a href="#">Board of Directors</a>
+      </div>
+    </div>
+
+    <a href="#contact">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+<!-- About Section Starts -->
+
+<header class="about-header">
+    <div class="overlay">
+      <h1>About Us</h1>
+    </div>
+  </header>
+
+  <section id="about-us" class="about-section">
+    <div class="container">
+      <div class="section-content">
+        <div class="about-item">
+          <i class="fa fa-users"></i>
+          <h3>Our Mission</h3>
+          <p>We are dedicated to empowering students and building strong communities through education and collaboration.</p>
+        </div>
+
+        <div class="about-item">
+          <i class="fa fa-history"></i>
+          <h3>History</h3>
+          <p>Learn about our journey, milestones, and the positive impact we've made over the years.</p>
+        </div>
+
+        <div class="about-item">
+          <i class="fa fa-handshake-o"></i>
+          <h3>Partnerships</h3>
+          <p>We actively collaborate with other organizations to enhance educational opportunities and community development.</p>
+        </div>
+
+        <div class="about-item">
+          <i class="fa fa-globe"></i>
+          <h3>Global Presence</h3>
+          <p>Explore our initiatives and projects that extend beyond borders, contributing to a global community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- About Section Ends -->
+
+
+  <script>
+    // JS for navbar toggle
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="website icon" type="jpg" href="images/logo.jpg">
+    <meta name="viewpport" content="width=device-width, scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>NAZAS KASU | HOME</title>
+</head>
+<body>
+
+ <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#">Pay Dues</a>
+    <a href="#news">Blog</a>
+    <a href="about.html">About</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Membership
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Members</a>
+        <a href="#">Register</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Leadership
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Current Leaders</a>
+        <a href="#">Past Leaders</a>
+        <a href="#">Parliament</a>
+        <a href="#">Board of Directors</a>
+      </div>
+    </div>
+
+    <a href="#contact">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+<header class="banner">
+    <div class="banner-content">
+        <h1>National Association of Zazzau Students (NAZAS)</h1>
+        <p>Kaduna State University (KASU) Chapter.</p>
+        <div class="cta-buttons">
+            <a href="#join-us" class="cta-button">Join Us</a>
+            <a href="#donate" class="cta-button">Donate</a>
+        </div>
+    </div>
+</header>
+
+<section id="scholarships" class="scholarships-section">
+  <div class="container">
+    <h2>Scholarships</h2>
+    <div class="scholarship-columns">
+      <div class="scholarship-item">
+        <img src="images/scholarship1.jpg" alt="Scholarship 1">
+        <h3>Scholarship Title 1</h3>
+        <p>Description of Scholarship 1.</p>
+        <button>Apply Now</button>
+      </div>
+      <div class="scholarship-item">
+        <img src="images/scholarship2.jpg" alt="Scholarship 2">
+        <h3>Scholarship Title 2</h3>
+        <p>Description of Scholarship 2.</p>
+        <button>Apply Now</button>
+      </div>
+      <div class="scholarship-item">
+        <img src="images/scholarship3.jpg" alt="Scholarship 3">
+        <h3>Scholarship Title 3</h3>
+        <p>Description of Scholarship 3.</p>
+        <button>Apply Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+    // JS for navbar toggle
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+  
+</body>
+</html>
